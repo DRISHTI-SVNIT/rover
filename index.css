@@ -65,7 +65,16 @@ html
 }
 
 .nav-link{
-    color: black;
+    color: white;
+}
+
+.svnit_photo {
+   /* height:100px; */
+   width:180px;
+   height: auto;
+   margin-left: 5%;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
 body
@@ -267,80 +276,35 @@ body
 
 
 
-.con{
-    border:2px solid transparent;
-     padding-left: 50px;
-     padding-right: 50px;
- }
-
- .svnit_photo {
-    /* height:100px; */
-    width:180px;
-    height: auto;
-    margin-left: 5%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
- /* .contact{
-     padding-left: 90px;
-     padding-right: 90px;
- } */
 
 
- .about
- {
-    padding-top: 10px;
- }
 
 
- .about_us
- {
-    text-align: left;
-    padding-bottom: 10px;
- }
 
- .about_us_content
- {
-    text-align: justify;
-    font-size: large;
-    font-weight: 400;
- }
 
- .pad
- {
-    padding-bottom: 30px;
-    padding-top: 40px;
- }
 
- .pad_data
- {
-    text-align: justify;
-     font-size: large;
-    font-weight: 500;
- }
 
- ul li:hover{
-     background-color:rgb(211,211,211);
-     font-weight: bolder;
- }
- .carousel-item{
-     padding-right: 0px;
-     padding-left: 0px;
- }
- .hello1{
-    height: 720px;
-     width: 1250;
- }
- .hello2{
-    height: 720px;
-     width: 1300;
- }
- .hello3{
-    height: 720px;
-     width: 1300;
- }
- @media(max-width:978px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:978px)
 {
     .hello
     {
