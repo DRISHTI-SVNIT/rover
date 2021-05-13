@@ -1,0 +1,164 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('../webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('../webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('../webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('../webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('../webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('../webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
+html
+{
+    overflow-x: hidden;
+}
+.navbar-nav{
+    /* font-family: Arial; */
+    font-size: 20px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.svnit_photo {
+   /* height:100px; */
+   width:180px;
+   height: auto;
+   margin-left: 5%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 110px;
+    width: 100%;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title h3{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.topics{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 100%;
+}
+
+.cards{
+    width: 12%;
+    margin: 2%;
+    text-align: center;
+}
+
+.images{
+    margin-bottom: 20px;
+}
+
+.images img{
+    width: 100%;
+}
+
+.cards a{
+    font-size: 20px;
+}
+
+
+
+.subs{
+    width: 100%;
+    display: flex;
+}
+
+.sub-img-box{
+    width: 50%;
+    padding: 7%;
+    display: grid;
+    align-items: center;
+}
+
+.sub-img-box img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sub-text{
+    width: 50%;
+    text-align: left;
+    padding: 8%;
+}
+
+.sub-text h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px 0 20px 0;
+}
+
+.sub-text p{
+    font-size: 20px;
+    padding: 5px 0 20px 0;
+}

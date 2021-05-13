@@ -1,58 +1,391 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
 html
 {
     overflow-x: hidden;
 }
-   
-body
-{
-    overflow-x: hidden;  
-   background-image: url(background1.jpg);
-    background-color: rgba(255,255,255,0.7);
-    background-blend-mode: lighten;
-    background-position: left;
-}
 .navbar-nav{
-    font-family: Arial;
+    /* font-family: Arial; */
     font-size: 20px;
 }
 
-.con{
-   border:2px solid transparent;
-    padding-left: 50px;
-    padding-right: 50px;
+.nav-link{
+    color: white;
 }
 
 .svnit_photo {
-    width:180px;
-    height: auto;
-    margin-left: 5%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+   /* height:100px; */
+   width:180px;
+   height: auto;
+   margin-left: 5%;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
-.contact{
-    padding-left: 90px;
-    padding-right: 90px;
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
-.hello1{
-    height: 600px;
-     width: 1250;
- }
- .hello2{
-    height: 600px;
-     width: 1300;
- }
- .hello3{
-    height: 600px;
-     width: 1300;
- }
-ul li:hover{
-    background-color:rgb(211,211,211);
+
+
+
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(solar/arguslink.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 0px -180px 170px 50px rgba(0, 0, 0, 0.95) inset, 0px 70px 90px 20px rgba(0, 0, 0, 0.7) inset;
+}
+
+.argus-image{
+    display: flex;
+    justify-content: center;
+}
+
+.argus-image .argus-title{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.argus-image .argus-title h3{
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.argus-image .argus-title h1{
     font-weight: bolder;
+    letter-spacing: 10px;
+    font-size: 140px;
+    padding-bottom: 0;
 }
-@media (max-width: 600.98px) { 
+
+.argus-intro{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.argus-irdc{
+    width: 100%;
+    display: flex;
+}
+
+.argus-imh{
+    width: 100%;
+    display: flex;
+}
+
+.argus-gujcost{
+    width: 100%;
+    display: flex;
+}
+
+.right-text{
+    width: 70%;
+    padding: 4% 6% 4% 10%;
+}
+
+.right-text p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.right-image{
+    width: 30%;
+    padding: 3% 6% 3% 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-image img{
+    width: 100%;
+}
+
+.left-text{
+    width: 70%;
+    padding: 4% 6% 4% 10%;
+}
+
+.left-text p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.left-image{
+    width: 30%;
+    padding: 3% 0 3% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-image img{
+    width: 100%;
+}
+
+.argus-intro-last h3{
+    font-size: 20px;
+    padding: 5% 10% 5% 10%;
+    text-align: justify;
+}
+
+.competition-buttons{
+    display: flex;
+    margin-top: 40px;
+}
+
+a.competition-site{
+    text-align: center;
+    text-decoration: none;
+    width: 48%;
+    margin-right: 2%;
+    background-color: transparent;
+    padding: 7px 0 9px 0;
+    color: black;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+a.competition-site:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.1s ease;
+    font-weight: bold;
+}
+
+a.competition-design{
+    text-align: center;
+    text-decoration: none;
+    width: 48%;
+    margin-left: 2%;
+    background-color: transparent;
+    padding: 7px 0 9px 0;
+    color: black;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+a.competition-design:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.1s ease;
+    font-weight: bold;
+}
+
+a.argus-comp-redirect{
+    text-decoration: none;
+    font-style: italic;
+    color: dodgerblue;
+}
+
+a.argus-comp-redirect:hover{
+    color: indianred;
+}
+
+
+
+
+
+.subsystems-link{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.sub-head{
+    background-color: rgb(20, 34, 41);
+    text-align: left;
+    padding: 40px 10% 40px 10%;
+}
+
+.sub-head h1{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.sub-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-sub{
+    width: 22%;
+    margin: 3%;
+    text-align: center;
+}
+
+.image-sub{
+    margin-bottom: 15px;
+}
+
+.image-sub img{
+    width: 100%;
+}
+
+.div-sub h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+a.sub-link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(20,34,41);
+    border: 2px solid rgb(20, 34, 41);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    transition: 0.1s ease;
+}
+
+a.sub-link-button:hover{
+    color: rgb(20,34,41);
+    background-color: white;
+    border: 2px solid rgb(20, 34, 41);
+    transition: 0.1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600.98px) {
     .con{
-        border:2px solid transparent;
+    border:2px solid transparent;
     padding-left: 20px;
     padding-right: 10px;
     }
@@ -63,36 +396,24 @@ ul li:hover{
         height: auto;
     }
     .hello1{
-        height: 200px;
+    height: 250px;
     }
+
     .hello2{
-        height: 200px;
+    height: 250px;
     }
+
     .hello3{
-        height: 200px;
+    height: 250px;
     }
-   
-}
-.about
-{
-    padding-top: 5px;
-}
- .about-heading
-{
-    text-align: left;
-    padding-bottom: 10px;
-}
-.about-content
-{
-    text-align: justify; 
-    font-size: larger;
-    font-weight:500;
-}
-.present-content
-{
-    text-align: justify; 
-    font-size: larger;
-    font-weight:500;
+    .about_us_content
+    {
+        font-weight: 400;
+    }
+    .pad_data
+    {
+        font-weight: 400;
+    }
 }
 .dob .x
 {
@@ -118,24 +439,8 @@ ul li:hover{
         padding-right: 0px;
         padding-left:0px;
     }
-    .about-content
-    {
-        font-weight:normal;
-    }
-    .present-content
-    {
-        font-weight:normal;
-    }
 }
 @media(max-width:978px)
-{
-    .hello
-    {
-        padding-top: 50px;
-    }
-}
-
-    @media(max-width:978px)
 {
     .ifr
     {

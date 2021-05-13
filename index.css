@@ -272,7 +272,193 @@ body
 
 
 
+@media (max-width:640px){
+    .main-div{
+        width: 100%;
+        height: 100vh;
+        background-image: none;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+    }
 
+    .rover-image{
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/irc2020_1.jpg),url(images/irc2019final_3.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position:
+            bottom 0px left 0px,
+            bottom 90px left 0px;
+        background-repeat: no-repeat;
+    }
+
+    .rover-image .rover-title{
+        top: 120px;
+        left: 20px;
+        position: absolute;
+        text-align: left;
+        color: #eee;
+        text-shadow: 0 0 0px transparent;
+    }
+
+    .rover-image .rover-title h3{
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .rover-image .rover-title h1{
+        font-weight: bolder;
+        letter-spacing: 6px;
+        font-size: 75px;
+        padding-bottom: 0px;
+    }
+
+    .about-section{
+        display: grid;
+    }
+
+    .write-up-about{
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+     .about-us
+     {
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 10px;
+     }
+
+     .about-us-content
+     {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+     }
+
+    .about-drishti-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-drishti-image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .rover-section{
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        background-color: #202328;
+        color: #f8fafd;
+        background-image: url(solar/image_1.jpg);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+    }
+
+    .rover-section h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    }
+
+    .rover-section p{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .rover-status{
+        display: grid;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .rover-year-space{
+        width: 100%;
+        height: 0;
+    }
+
+    .rover-year-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rover-year-image-box{
+        width: 84%;
+        margin: 6% 6% 6% 6%;
+    }
+
+    .rover-year-image-box img{
+        width: 100%;
+        border: 0px solid transparent;
+        border-radius: 15px;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .rover-year-link{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .rover-year-text{
+        padding: 6% 10% 6% 10%;
+        text-align: left;
+    }
+
+    .rover-year-text h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .rover-year-text h4{
+        font-size: 16px;
+        color: rgba(20, 34, 41, 0.6);
+    }
+
+    .rover-year-text h2{
+        font-size: 18px;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .rover-year-text a.envision-button{
+        text-decoration: none;
+        font-size: 16px;
+        padding: 6px 30px 6px 30px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 30, 45);
+        border: 2px solid rgb(240, 30, 45);
+        border-radius: 10px;
+    }
+
+    .rover-year-text a.envision-button:hover{
+        color: rgb(240, 30, 45);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(240, 30, 45);
+    }
+}
 
 
 

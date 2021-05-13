@@ -251,11 +251,11 @@ a.competition-design:hover{
 a.envision-comp-redirect{
     text-decoration: none;
     font-style: italic;
-    color: black;
+    color: dodgerblue;
 }
 
 a.envision-comp-redirect:hover{
-    color: dodgerblue;
+    color: indianred;
 }
 
 
