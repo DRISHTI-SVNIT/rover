@@ -293,7 +293,7 @@ a.envision-comp-redirect:hover{
 }
 
 .sub-head{
-    background-color: rgb(20, 34, 41);
+    background-color: rgb(24, 30, 40);
     text-align: left;
     padding: 40px 10% 40px 10%;
 }
@@ -315,7 +315,11 @@ a.envision-comp-redirect:hover{
 .div-sub{
     width: 22%;
     margin: 3%;
+    height: 55vh;
     text-align: center;
+    text-align: center;
+    display: grid;
+    align-content: space-between;
 }
 
 .image-sub{
@@ -335,8 +339,8 @@ a.sub-link-button{
     text-decoration: none;
     color: white;
     font-size: 18px;
-    background-color: rgb(20,34,41);
-    border: 2px solid rgb(20, 34, 41);
+    background-color: rgb(24, 30, 40);
+    border: 2px solid rgb(24, 30, 40);
     padding: 9px 30px 9px 30px;
     border-radius: 10px;
     transition: 0.1s ease;
@@ -345,7 +349,7 @@ a.sub-link-button{
 a.sub-link-button:hover{
     color: rgb(20,34,41);
     background-color: white;
-    border: 2px solid rgb(20, 34, 41);
+    border: 2px solid rgb(24, 30, 40);
     transition: 0.1s ease;
 }
 
@@ -361,7 +365,261 @@ a.sub-link-button:hover{
 
 
 
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
 
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-div{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: darkgray;
+    }
+
+    .envision-image{
+        height: 45vh;
+        background-image: url(images/envision/roverlink.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        box-shadow: 0px -50px 100px 20px rgba(0, 0, 0, 0.9) inset, 0px 10px 50px 10px rgba(0, 0, 0, 0.4) inset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .envision-image .envision-title{
+        top: 25vh;
+        position: relative;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 0 30px black;
+    }
+
+    .envision-image .envision-title h3{
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    .envision-image .envision-title h1{
+        font-weight: bolder;
+        letter-spacing: 7px;
+        font-size: 50px;
+    }
+
+    .envision-intro{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .envision-irdc{
+        display: grid;
+    }
+
+    .envision-imh{
+        display: grid;
+    }
+
+    .envision-gujcost{
+        display: grid;
+    }
+
+    .right-text{
+        width: 100%;
+        padding: 25px 25px;
+    }
+
+    .right-text p{
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .right-image{
+        width: 100%;
+        padding: 10px 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-image img{
+        width: 100%;
+    }
+
+    .left-text{
+        grid-row: 1;
+        width: 100%;
+        padding: 25px 25px;
+    }
+
+    .left-text p{
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .left-image{
+        grid-row: 2;
+        width: 100%;
+        padding: 10px 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-image img{
+        width: 100%;
+    }
+
+    .envision-intro-last h3{
+        font-size: 13px;
+        padding: 18px 25px;
+        text-align: justify;
+    }
+
+    .competition-buttons{
+        display: flex;
+        margin-top: 40px;
+    }
+
+    a.competition-site{
+        text-align: center;
+        text-decoration: none;
+        width: 48%;
+        margin-right: 2%;
+        background-color: transparent;
+        padding: 7px 0 9px 0;
+        color: black;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: all 0.1s ease;
+    }
+
+    a.competition-site:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        transition: all 0.1s ease;
+        font-weight: bold;
+    }
+
+    a.competition-design{
+        text-align: center;
+        text-decoration: none;
+        width: 48%;
+        margin-left: 2%;
+        background-color: transparent;
+        padding: 7px 0 9px 0;
+        color: black;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: all 0.1s ease;
+    }
+
+    a.competition-design:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        transition: all 0.1s ease;
+        font-weight: bold;
+    }
+
+    a.envision-comp-redirect{
+        text-decoration: none;
+        font-style: italic;
+        color: dodgerblue;
+    }
+
+    a.envision-comp-redirect:hover{
+        color: indianred;
+    }
+
+
+
+
+
+    .subsystems-link{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+
+    .sub-head{
+        background-color: rgb(24, 30, 40);
+        text-align: left;
+        padding: 30px;
+    }
+
+    .sub-head h1{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+
+    .sub-cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-sub{
+        width: 22%;
+        height: 30vh;
+        margin: 3%;
+        text-align: center;
+        display: grid;
+        align-content: space-between;
+    }
+
+    .image-sub{
+        margin-bottom: 10px;
+    }
+
+    .image-sub img{
+        width: 100%;
+    }
+
+    .div-sub h2{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    a.sub-link-button{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        background-color: rgb(24,30,40);
+        border: 2px solid rgb(24, 30, 40);
+        padding: 6px 15px 6px 15px;
+        border-radius: 8px;
+        transition: 0.1s ease;
+    }
+
+    a.sub-link-button:hover{
+        color: rgb(20,34,41);
+        background-color: white;
+        border: 2px solid rgb(24, 30, 40);
+        transition: 0.1s ease;
+    }
+}
 
 
 
