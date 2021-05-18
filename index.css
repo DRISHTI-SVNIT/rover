@@ -68,13 +68,36 @@ html
     color: white;
 }
 
-.svnit_photo {
-   /* height:100px; */
-   width:180px;
+.svnit_photo{
+   width:150px;
    height: auto;
-   margin-left: 5%;
+   margin-left: 10px;
    margin-top: 0px;
    margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 body
@@ -273,6 +296,22 @@ body
 
 
 @media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
     .main-div{
         width: 100%;
         height: 95vh;
@@ -298,11 +337,10 @@ body
 
     .rover-image .rover-title{
         top: 20px;
-        left: 20px;
         position: absolute;
-        text-align: left;
+        text-align: center;
         color: #fefefe;
-        text-shadow: 0 0 0px transparent;
+        text-shadow: 0 0 15px rgba(0,0,0,0.5);
     }
 
     .rover-image .rover-title h3{
