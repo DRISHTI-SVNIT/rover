@@ -72,7 +72,7 @@ html
    /* height:100px; */
    width:180px;
    height: auto;
-   margin-left: -20px;
+   margin-left: 10px;
    margin-top: 0px;
    margin-bottom: 0px;
 }
@@ -217,7 +217,7 @@ body
     width: 100%;
 }
 
-.envision-intro-last h3{
+.envision-intro-last p{
     font-size: 20px;
     padding: 5% 10% 5% 10%;
     text-align: justify;
@@ -316,7 +316,6 @@ a.envision-comp-redirect:hover{
     width: 22%;
     margin: 3%;
     height: 55vh;
-    text-align: center;
     text-align: center;
     display: grid;
     align-content: space-between;
@@ -485,7 +484,7 @@ a.sub-link-button:hover{
         width: 100%;
     }
 
-    .envision-intro-last h3{
+    .envision-intro-last p{
         font-size: 13px;
         padding: 18px 25px;
         text-align: justify;
