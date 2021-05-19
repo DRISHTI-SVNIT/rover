@@ -10,6 +10,11 @@
     </title>
 
     <link rel="stylesheet" type="text/css" media="screen" href="solar.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
+
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,800&family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -20,21 +25,32 @@
             <img src="images/drishti_3.png">
         </div>
         <div class="menu">
-            <a href="" style="color: black; background-color: lightgray; border-radius: 7px; border: 1px solid lightgray;">HOME</a>
-            <a href="">GALLERY</a>
-            <a href="">ROVERS</a>
-            <a href="">CONTACT</a>
+            <a href="#" style="color: black; background-color: lightgray; border-radius: 7px; border: 1px solid lightgray;">HOME</a>
+            <a href="#">GALLERY</a>
+            <a href="#">DOC</a>
+            <div class="rovers">
+                <button class="dropbutton">
+                    ROVERS <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="rover-menu">
+                    <a href="envision.html">ENVISION</a>
+                    <a href="argus.html">ARGUS</a>
+                    <a href="#">SOLAR-64</a>
+                    <a href="#">ANVESHAK</a>
+                </div>
+            </div>
+            <a href="#down">CONTACT</a>
         </div>
     </div>
 
     <div class="title-container">
         <div class="container">
             <h1>SOLAR-64</h1>
-            <div class="circle">
+            <!-- <div class="circle">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -57,5 +73,53 @@
         })
     </script>
 
+    <!------------------------------------------------->
+
+    <!-- New Footer -->
+
+    <div class="drishti-map" id="down">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6327874201347!2d72.78366581502787!3d21.16700718592359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI%20-%20A%20REVOLUTIONARY%20CONCEPT!5e0!3m2!1sen!2sin!4v1618395974891!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+
+        </iframe>
+
+    </div>
+
+    <div class="new-footer">
+        <div class="drishti-copyright">
+            <span>
+                © Drishti-SVNIT. All Rights Reserved
+            </span>
+        </div>
+
+        <div class="drishti-home">
+            <a href = "https://drishti-svnit.github.io/drishti/" target="_blank">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+
+        <div class="drishti-social">
+            <div class = "contact-icons">
+                <a class="social-button facebook" href="https://www.facebook.com/drishti.nitsurat/" target="_blank">
+                    <i class="fab fa-facebook-square " style="vertical-align:0;"></i>
+                </a>
+                <a class="social-button insta" href="https://www.instagram.com/drishti.svnit/" target="_blank">
+                    <i class="fab fa-instagram " style="vertical-align:0;"></i>
+                </a>
+                <a class="social-button linkedin" href="https://www.linkedin.com/company/drishti-nitsurat/" target="_blank">
+                    <i class="fab fa-linkedin " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button github" href="https://www.github.com/DRISHTI-SVNIT" target="_blank">
+                    <i class="fab fa-github " style="vertical-align:0;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button mail" href="mailto:drishti.nitsurat@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-open " style="vertical-align:0;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button youtube" href="https://www.youtube.com/channel/UClAi8qJnq9VckAPOMzcPpLQ" target="_blank">
+                    <i class="fab fa-youtube " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
