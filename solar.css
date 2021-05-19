@@ -26,10 +26,10 @@
 .menu a{
     text-decoration: none;
     color: #223;
-    font-family: poppins;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
-    border: 1px solid transparent;
+    font-weight: 700;
+    border: 2px solid transparent;
     margin-left: 1.6rem;
     padding: 0.2rem 0.8rem;
     transition: all 100ms;
@@ -37,9 +37,9 @@
 
 .menu a:hover{
     color: black;
-    background-color: lightgray;
+    background-color: transparent;
     border-radius: 7px;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
     transition: all 200ms;
 }
 
@@ -76,7 +76,7 @@
     color: #fff;
     font-size: 9rem;
     font-weight: 600;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     text-shadow: 0 0 22px rgba(0,0,0,0.9);
     transform: translateZ(40px);
 }
