@@ -1,58 +1,541 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
 html
 {
     overflow-x: hidden;
 }
-   
-body
-{
-    overflow-x: hidden;  
-   background-image: url(background1.jpg);
-    background-color: rgba(255,255,255,0.7);
-    background-blend-mode: lighten;
-    background-position: left;
-}
 .navbar-nav{
-    font-family: Arial;
+    /* font-family: Arial; */
     font-size: 20px;
 }
 
-.con{
-   border:2px solid transparent;
-    padding-left: 50px;
-    padding-right: 50px;
+.nav-link{
+    color: white;
 }
 
-.svnit_photo {
-    width:180px;
+.svnit_photo{
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
     height: auto;
-    margin-left: 5%;
+    margin-left: 30px;
+    margin-right: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.contact{
-    padding-left: 90px;
-    padding-right: 90px;
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
-.hello1{
-    height: 600px;
-     width: 1250;
- }
- .hello2{
-    height: 600px;
-     width: 1300;
- }
- .hello3{
-    height: 600px;
-     width: 1300;
- }
-ul li:hover{
-    background-color:rgb(211,211,211);
+
+
+
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/irc2020_1.jpg);
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -160px 500px 120px rgba(0, 0, 0, 1) inset, 0px 70px 90px 20px rgba(0, 0, 0, 1) inset;
+}
+
+.rover-image{
+    display: flex;
+    justify-content: center;
+}
+
+.rover-image .rover-title{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.rover-image .rover-title h3{
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+
+.rover-image .rover-title h1{
     font-weight: bolder;
+    letter-spacing: 10px;
+    font-size: 140px;
+    padding-bottom: 50px;
 }
-@media (max-width: 600.98px) { 
+
+.about-section{
+    display: flex;
+}
+
+.write-up-about{
+    width: 65%;
+    padding: 20px 30px 30px 70px;
+}
+
+ .about-us
+ {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+ }
+
+ .about-us-content
+ {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+.about-drishti-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rover-section{
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    background-color: #202328;
+    color: #f8fafd;
+    background-image: url(solar/image_1.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+}
+
+.rover-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.rover-section p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.rover-status{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.rover-year-space{
+    width: 5%;
+}
+
+.rover-year-image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rover-year-image-box{
+    width: 84%;
+    margin: 6% 6% 6% 6%;
+}
+
+.rover-year-image-box img{
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);
+}
+
+.rover-year-link{
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rover-year-text{
+    padding: 6% 10% 6% 10%;
+    text-align: left;
+}
+
+.rover-year-text h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(20, 34, 41);
+    letter-spacing: 1px;
+}
+
+.rover-year-text h4{
+    font-size: 20px;
+    color: rgba(20, 34, 41, 0.6);
+}
+
+.rover-year-text h2{
+    font-size: 20px;
+    color: rgb(20, 34, 41);
+    letter-spacing: 1px;
+}
+
+.rover-year-text a.envision-button{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 30px 8px 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 30, 45);
+    border: 2px solid rgb(240, 30, 45);
+    border-radius: 10px;
+}
+
+.rover-year-text a.envision-button:hover{
+    color: rgb(240, 30, 45);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(240, 30, 45);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-div{
+        width: 100%;
+        height: 95vh;
+        background-image: none;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+    }
+
+    .rover-image{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/irc2020_1.jpg),url(images/irc2019final_3.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position:
+            bottom 0px left 0px,
+            bottom 90px left 0px;
+        background-repeat: no-repeat;
+    }
+
+    .rover-image .rover-title{
+        top: 20px;
+        position: absolute;
+        text-align: center;
+        color: #fefefe;
+        text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .rover-image .rover-title h3{
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .rover-image .rover-title h1{
+        font-weight: bolder;
+        letter-spacing: 6px;
+        font-size: 75px;
+        padding-bottom: 0px;
+    }
+
+    .about-section{
+        display: grid;
+    }
+
+    .write-up-about{
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+     .about-us
+     {
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 10px;
+     }
+
+     .about-us-content
+     {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+     }
+
+    .about-drishti-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-drishti-image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .rover-section{
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        background-color: #202328;
+        color: #f8fafd;
+        background-image: url(solar/image_1.jpg);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+    }
+
+    .rover-section h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    }
+
+    .rover-section p{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .rover-status{
+        display: grid;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .rover-year-space{
+        width: 100%;
+        height: 0;
+    }
+
+    .rover-year-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rover-year-image-box{
+        width: 84%;
+        margin: 6% 6% 6% 6%;
+    }
+
+    .rover-year-image-box img{
+        width: 100%;
+        border: 0px solid transparent;
+        border-radius: 15px;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .rover-year-link{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .rover-year-text{
+        padding: 6% 10% 6% 10%;
+        text-align: left;
+    }
+
+    .rover-year-text h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .rover-year-text h4{
+        font-size: 16px;
+        color: rgba(20, 34, 41, 0.6);
+    }
+
+    .rover-year-text h2{
+        font-size: 18px;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .rover-year-text a.envision-button{
+        text-decoration: none;
+        font-size: 16px;
+        padding: 6px 30px 6px 30px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 30, 45);
+        border: 2px solid rgb(240, 30, 45);
+        border-radius: 10px;
+    }
+
+    .rover-year-text a.envision-button:hover{
+        color: rgb(240, 30, 45);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(240, 30, 45);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+ @media (max-width: 600.98px) {
     .con{
-        border:2px solid transparent;
+    border:2px solid transparent;
     padding-left: 20px;
     padding-right: 10px;
     }
@@ -63,36 +546,24 @@ ul li:hover{
         height: auto;
     }
     .hello1{
-        height: 200px;
+    height: 250px;
     }
+
     .hello2{
-        height: 200px;
+    height: 250px;
     }
+
     .hello3{
-        height: 200px;
+    height: 250px;
     }
-   
-}
-.about
-{
-    padding-top: 5px;
-}
- .about-heading
-{
-    text-align: left;
-    padding-bottom: 10px;
-}
-.about-content
-{
-    text-align: justify; 
-    font-size: larger;
-    font-weight:500;
-}
-.present-content
-{
-    text-align: justify; 
-    font-size: larger;
-    font-weight:500;
+    .about_us_content
+    {
+        font-weight: 400;
+    }
+    .pad_data
+    {
+        font-weight: 400;
+    }
 }
 .dob .x
 {
@@ -118,24 +589,8 @@ ul li:hover{
         padding-right: 0px;
         padding-left:0px;
     }
-    .about-content
-    {
-        font-weight:normal;
-    }
-    .present-content
-    {
-        font-weight:normal;
-    }
 }
 @media(max-width:978px)
-{
-    .hello
-    {
-        padding-top: 50px;
-    }
-}
-
-    @media(max-width:978px)
 {
     .ifr
     {

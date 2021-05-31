@@ -1,160 +1,311 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="google-site-verification" content="G4gClB66Jr2h0XiecdD1OyTE0HCHwwS707_GIuEMCfU" />
-<meta name="description" content="The DRISHTI-Rover is a student initiative at SVNIT to build a prototype of Mars rover capable of extra-terrestrial robotics.">
-<meta name="keywords" content="Drishti, Rover,WE,ME,technical, DRISHTI, ROVER">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>
-    DRISHTI-Rover
-</title>
-<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-<link rel="manifest" href="favicon_io/site.webmanifest">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" media="screen" href="index.css">
-<link href="css/all.min.css" rel="stylesheet">
-<link href="css/fontawesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" media="screen" href="css/font.css">
-<link rel="stylesheet" type="text/css" media="screen" href="footer.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="G4gClB66Jr2h0XiecdD1OyTE0HCHwwS707_GIuEMCfU" />
+    <meta name="description" content="The DRISHTI-Rover is a student initiative at SVNIT to build a prototype of Mars rover capable of extra-terrestrial robotics.">
+    <meta name="keywords" content="Drishti, Rover,WE,ME,technical, DRISHTI, ROVER">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        DRISHTI-Rover
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
 </head>
 <body>
-        <!----------------------------------------->
-        <!--navbar-->
-<nav class="navbar navbar-expand-md navbar-light" style="background-color:	rgb(220,220,220);">
+<!-- <nav class="navbar navbar-expand-md navbar-light"style="background-color: rgba(2,2,2,0.1); height: 14vh;">
     <a href ="https://drishti-svnit.github.io/drishti/" class="navbar-brand">
-        <img src="images/drishti_3.png" class="svnit_photo" style="padding-top: 0; padding-bottom: 0;">
+        <img src="images/logoleft.jpg" class="svnit_photo" >
     </a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ml-auto">
-            <!-------------------------------------------------------------------------------->
-            <!--DROPDOWN-->
-            <li class="nav-item"style="font-weight: bold;"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item dropdown "style="font-weight: bold;">
-                    <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Subsystem</a>
+            <li class="nav-item"style="font-weight: bold; margin-right: 15px;"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown"style="font-weight: bold; margin-right: 15px;"><a href="#" class="nav-link">Gallery</a></li>
+            <li class="nav-item"style="font-weight: bold; margin-right: 15px;"><a href="#" class="nav-link">Documentation</a></li>
+            <li class="nav-item"style="font-weight: bold; margin-right: 30px;"><a href="#down" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav> -->
+<!-- <div style="background-image: url(images/image_3.jpg);  background-size: cover;background-color: rgba(255,255,255,0.7); background-blend-mode: lighten; ">
+    <div id="myslideshow" class="carousel slide carousel-fade" data-ride="carousel">
+        <indicators>
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myslideshow" data-slide-to="0"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                <li class="active" data-target="#myslideshow" data-slide-to="1"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+                <li class="active" data-target="#myslideshow" data-slide-to="2"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
+            </ol>
+        </indicators>
+        <div class="carousel-inner">
+            <div class="carousel-item active text-center"><img class="img-fluid hello1" src="images/t1.jpg"></div>
+            <div class="carousel-item text-center"><img class="img-fluid hello2" src="images/image_11.jpg">
+                <div class="carousel-caption d-none d-md-block"><h1 style="color: black;"> MR1 </h1></div>
+            </div>
+            <div class="carousel-item text-center"><img class="img-fluid hello3" src="images/image_2.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: black;"> MR2 </h1>
+                </div>
+            </div>
+        </div>
+            <!-- controls->
+        <a href="#myslideshow" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a href="#myslideshow" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>  -->
+
+
+<div class="main-div">
+    <nav class="navbar navbar-expand-md navbar-light"style="background-color: rgba(220,220,220);">
+        <a href ="http://svnit.ac.in/" class="navbar-brand">
+            <img class="nit_photo"src="images/svnit.png">
+        </a>
+        <div class="navbar-brand v2"></div>
+        <a href ="https://drishti-svnit.github.io/drishti/" class="navbar-brand">
+            <img src="images/drishti_3.png" class="svnit_photo" >
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"style="font-weight: bold; margin-right: 20px;"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown"style="font-weight: bold; margin-right: 20px;"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item dropdown "style="font-weight: bold;  margin-right: 20px;">
+                    <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Rovers</a>
                     <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
-                        <a href="electronics.html" class="dropdown-item">
-                            ELECTRONICS AND SOFTWARE
+                        <a href="envision.html" class="dropdown-item">
+                            ENVISION | 2021
                         </a>
-                        <a href="mechanical.html" class="dropdown-item">
-                            MECHANICAL SUBSYSTEM
+                        <a href="argus.html" class="dropdown-item">
+                            ARGUS | 2020
                         </a>
-                        <a href="bioscience.html" class="dropdown-item">
-                                    BIOSCIENCE
+                        <a href="#solar" class="dropdown-item">
+                            SOLAR-64 | 2019
+                        </a>
+                        <a href="#anv" class="dropdown-item">
+                            ANVESHAK | 2018
                         </a>
                     </div>
                 </li>
-                <li class="nav-item dropdown"style="font-weight: bold;">
-                    <a href="gallery.html" class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item"style="font-weight: bold;"><a href="https://docs.google.com/document/d/1h-xd_8QDOgz58PQw7iZVhm_-3nVZVRTl69o0Dmo1EVg/edit" class="nav-link">Documentation</a></li>
-                <li class="nav-item"style="font-weight: bold;"><a href="#down" class="nav-link">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!--adding carousel-->
-<div id="myslideshow" class="carousel slide carousel-fade" data-ride="carousel">
-    <indicators>
-        <ol class="carousel-indicators">
-            <li class="active" data-target="#myslideshow" data-slide-to="0"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
-            <li class="active" data-target="#myslideshow" data-slide-to="1"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
-            <li class="active" data-target="#myslideshow" data-slide-to="2"style="height:10px; width: 10px; background-color: white; border-radius: 50%; display: inline-block;"></li>
-        </ol>
-    </indicators>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="img-fluid hello1 justify-content-center" src="images/irc2020_1.jpg">
-            <!--adding caption-->
-            <div class="carousel-caption d-none d-md-block">
-                <h1> IRC-2020 </h1>
-            </div>
+                <li class="nav-item"style="font-weight: bold; margin-right: 40px;"><a href="#down" class="nav-link">Contact</a></li>
+            </ul>
         </div>
-        <div class="carousel-item justify-content-center">
-            <img class="img-fluid hello2" src="images/irc2019final_2.jpg">
-            <!--adding caption-->
-            <div class="carousel-caption d-none d-md-block">
-                <h1> IRC-2019 </h1>
-            </div>
-        </div>
-
-        <div class="carousel-item ">
-            <img class="img-fluid hello3 justify-content-center" src="images/irc2018final.jpg">
-                <!--adding caption-->
-            <div class="carousel-caption d-none d-md-block">
-                <h1>IRC-2018</h1>
-            </div>
+    </nav>
+    <div class="rover-image">
+        <div class="rover-title">
+            <h3>TEAM</h3>
+            <h1>ROVER</h1>
         </div>
     </div>
-        <!--controls-->
-    <a href="#myslideshow" class="carousel-control-prev" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a href="#myslideshow" class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span>
-    </a>
 </div>
-    <!--------------------------------------------------------------------------->
-    <br><br>
-    <!--ABOUT US-->
 
-<div class="con">
-<!--------------------------------------------------------->
-    <div class="row about">
-        <div class="col-md-12 col-lg-9">
-            <h2 class="about-heading">ABOUT US</h2>
-                <p class="about-content">
-                DRISHTI is a technical club of SVNIT and is comprised of a bunch of inquisitive members from various branches aims at
-                encouraging curious minds to build up their technical aspect in a constructive manner and enhancing their
-                social quotient by providing a real-time opportunity to work as a team in a healthy competitive environment where everyone is free to frame his viewpoint in reality.
-                DRISHTI is a constant representative in various National
-                and International competitions like ABU Robocon, Indian Rover Challenge and Boeing Aeromodelling.</p>
-        </div>
-        <div class="col-md-12 col-lg-3 text-center">
-            <img src="images/drishti_image.png" alt="main image" style="padding-top: 10px;border: 1px solid black" height="200" width="300">
+
+
+
+
+          <!--------------------------------------------------------------------------->
+        <br><br>
+        <!--ABOUT US-->
+
+<div class="about-section" >
+    <div class="write-up-about">
+        <h1 class="about-us" style="font-weight: bold;">
+            ABOUT US
+        </h1>
+        <p class="about-us-content">
+            DRISHTI is a technical club of SVNIT and is comprised of a bunch of inquisitive members from various branches aims at
+            encouraging curious minds to build up their technical aspect in a constructive manner and enhancing their
+            social quotient by providing a real-time opportunity to work as a team in a healthy competitive environment where everyone is free to frame his viewpoint in reality.
+            DRISHTI is a constant representative in various National
+            and International competitions like ABU rover, Indian Rover Challenge and Boeing Aeromodelling.
+            </p>
+    </div>
+    <div class="about-drishti-image">
+        <img src="images/drishti_image.png" alt="main image"  height="200" width="300">
+    </div>
+</div>
+
+<div class="rover-section">
+    <h1>
+
+    </h1>
+    <p>
+        Team DRISHTI has been working on the Rover since the last four years and we participated in <strong>IRC (Indian Rover Challenge)</strong> in the years 2018, 2019 and 2020 securing ranks 4th, 8th, 9th respectively.
+    </p>
+    <br>
+    <p>
+        The Rover Team also took part in <strong>IRDC (International Rover Design Challenge) 2020</strong> and achieved 13th rank in it.The 2021 Rover team also competed in the <strong>International Mars Hackathon</strong> held by Mars Society South Asia(MSSA) where we had to find solutions for various problems that can face while travelling to Mars and setting up a colony there. We achieved 17th rank in that competition. For the first time Team Rover entered <strong>Gujcost Robofest</strong> and advanced to the second round in the competition.
+    </p>
+    <br>
+    <p>
+        For the 2021 rover, we designed a 6 degree of freedom robotic articulated arm with a 3D printed parallel gripper and a rocker bogie suspension with a differential bar.
+    </p>
+</div>
+
+
+<div class="rover-status">
+    <div class="rover-year-space">
+
+    </div>
+    <div class="rover-year-image">
+        <div class="rover-year-image-box">
+            <img src="images/envision/roverlink.jpg" alt="envision">
         </div>
     </div>
-    <br><br><br>
+    <div class="rover-year-link">
+        <div class="rover-year-text">
+            <h1>ENVISION</h1>
+            <h4>2020-2021</h4>
+            <br>
+            <h2>
+                The Rover Team took part in IRDC(International Rover Design Challenge) 2020, International Mars Hackathon and Gujcost Robofest.
+                <br><br>
+                Know more in detail about the project. Visit here.
+            </h2>
+            <br>
+            <a href="envision.html" class="envision-button">
+                Go To Site
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="rover-status">
+    <div class="rover-year-space">
+
+    </div>
+    <div class="rover-year-image">
+        <div class="rover-year-image-box">
+            <img src="solar/arguslink.jpg" alt="argus">
+        </div>
+    </div>
+    <div class="rover-year-link">
+        <div class="rover-year-text">
+            <h1>ARGUS</h1>
+            <h4>2020</h4>
+            <br>
+            <h2>
+                This Rover is the third entry of Team Drishti in the IRC (Indian Rover Challenge) series.
+                <br><br>
+                Know more in detail about the project. Visit here.
+            </h2>
+            <br>
+            <a href="argus.html" class="envision-button">
+                Go To Site
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="rover-status" id="solar">
+    <div class="rover-year-space">
+
+    </div>
+    <div class="rover-year-image">
+        <div class="rover-year-image-box">
+            <img src="solar/solar64link.jpg" alt="solar64">
+        </div>
+    </div>
+    <div class="rover-year-link">
+        <div class="rover-year-text">
+            <h1>SOLAR-64</h1>
+            <h4>2019</h4>
+            <br>
+            <h2>
+                This Rover is the second entry of Team Drishti in the IRC (Indian Rover Challenge) series.
+                <br><br>
+                <!-- Know more in detail about the project. Visit here. -->
+            </h2>
+            <!-- <br>
+            <a href="argus.html" class="envision-button">
+                Go To Site
+            </a> -->
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="rover-status" id="anv">
+    <div class="rover-year-space">
+
+    </div>
+    <div class="rover-year-image">
+        <div class="rover-year-image-box">
+            <img src="solar/anveshaklink.jpg" alt="anveshak">
+        </div>
+    </div>
+    <div class="rover-year-link">
+        <div class="rover-year-text">
+            <h1>ANVESHAK</h1>
+            <h4>2018</h4>
+            <br>
+            <h2>
+                Drishti's first ever experience with building a Mars Rover and competing in the IRC (Indian Rover Challenge).
+                <br><br>
+                <!-- Know more in detail about the project. Visit here. -->
+            </h2>
+            <!-- <br>
+            <a href="anveshak.html" class="envision-button">
+                Go To Site
+            </a> -->
+        </div>
+    </div>
+</div>
+
+
+
+
+<br><br><br>
         <!---------------------------------------------------------->
-        <!--PRESENT STATUS-->
-    <div class="row">
-        <div class="col-lg-4 col-md-12 order-lg-1 order-2 text-center" style="padding-bottom: 30px;">
-                <iframe width="300" height="250"
-                src="https://www.youtube.com/embed/EFN9qkRg_rM"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+                <!--PRESENT STATUS-->
+    <!-- <div class="row">
+        <div class="col-lg-4 col-md-12 order-lg-1 order-2 text-center pad" >
+            <img src="images/robocon.jpg" alt="main image">
         </div>
         <div class="col-md-12 col-lg-8 order-lg-2 order-1">
-            <h2 style="text-align: left;">PRESENT STATUS</h2>
-            <p class="present-content">
-                The 2020 Rover is the third entry of Team Drishti in the Indian Rover Challenge series. Our IRC journey has given us an opportunity to learn and
-                    develop our knowledge in the field of interplanetary vehicles.
-                The 2020 Rover team approached the project with the goal of revising the 2019 design to make it more versatile and application specific.
-                The main feature of this year's rover is modified SCARA Robotic Arm which provide 6-Degree of freedom and 6-wheel, 3-rocker combination
-                is used for all-terrain traversing capability.
+            <h1 style="text-align: left; font-weight: bold;">ROBOCON</h1>
+            <p class="pad_data">
+                ABU Robocon is an international robotics competition hosted every year by different Asian-Pacific countries (Japan, Vietnam, China, India, etc.)
+                wherein robots compete to complete a given task in a set period of time. The problem statement in 2019 was based on Mongolia's tradition of a message relay system.
+                The theme “GREAT URTUU- message relaying system” requires two messengers to work in coordination for effective transfer of the message. To comply with the
+                problem statement, the MR1 robot has distinct features like a holonomic drive along with various subsystems. The subsystems include a Gerege holding and passing
+                mechanism, an intercepting mechanism for receiving the Gerege and a lever-based throwing mechanism. The MR2 design requirements are that of a robotic replication
+                of a horse i.e. a 4-legged robot, carrying the message through various obstacles. MR2 is responsible for completing the final task and convey the message of victory to the world by raising the Gerege.
+                Our efforts in fulfilling the problem statement have resulted in the development of modified Klann mechanism for the MR2.
             </p>
         </div>
     </div>
-</div>
-<br>
+<br> -->
+             <!--contact-->
 
-<div class="drishti-map">
+
+<div class="drishti-map" id="down">
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6327874201347!2d72.78366581502787!3d21.16700718592359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI%20-%20A%20REVOLUTIONARY%20CONCEPT!5e0!3m2!1sen!2sin!4v1618395974891!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
 
     </iframe>
 
 </div>
-
-<div class="new-footer">
+			<div class="new-footer">
     <div class="drishti-copyright">
         <span>
             © Drishti-SVNIT. All Rights Reserved
@@ -190,44 +341,46 @@
         </div>
     </div>
 </div>
+<!--
+<div style="background-color: rgba(0,0,0,0.9);padding-top: 20px; height:auto;width: auto;" id="down">
+    <div class="row dob">
+        <div class="col-lg-4 col-sm-12" style="text-align: center;">
+            <h2 style="color:white">
+                DRISHTI
+            </h2>
+            <h3 class="x">
+                Technical Club, NIT SURAT
+            </h3>
+        </div>
+        <div class="col-lg-4 col-sm-12 hello" >
+            <h2 style="text-align: center; color:white">
+                Follow Us
+            </h2>
+        <div class="rounded-social-buttons">
+
+                <a class="social-button facebook" href="https://www.facebook.com/drishti.nitsurat/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="social-button linkedin" href="https://www.linkedin.com/company/drishti-nitsurat/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="social-button insta" href="https://www.instagram.com/drishti.svnit/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a style="font-size:45px;"class="social-button " href="https://github.com/DRISHTI-SVNIT" target="_blank"><i class="fab fa-github"></i></a>
 
 
-             <!--contact-->
-<!-- <div style="background-color: rgba(0,0,0,0.9);padding-top: 10px; height:auto;width: auto;" id="down">
-        <div class="row dob">
-            <div class="col-lg-4 col-sm-12" style="text-align: center;">
-                <h2 style="color:white">
-                    DRISHTI
-                </h2>
-                <h3 class="x">
-                    Technical Club, NIT SURAT
-                </h3>
-            </div>
-            <div class="col-lg-4 col-sm-12 hello" >
-                <h2 style="text-align: center; color:white">
-                    Follow Us
-                </h2>
-            <div class="rounded-social-buttons">
-
-                    <a class="social-button facebook" href="https://www.facebook.com/drishti.nitsurat/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="social-button linkedin" href="https://www.linkedin.com/company/drishti-nitsurat/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="social-button insta" href="https://www.instagram.com/drishti.svnit/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a style="font-size:45px;"class="social-button " href="https://github.com/DRISHTI-SVNIT" target="_blank"><i class="fab fa-github"></i></a>
-                    <a class="social-button " href="mailto:drishti.nitsurat@gmail.com" ><i style="font-size:170%;" class="fas fa-envelope"></i></a>
-                    <a class="social-button youtube" href="https://www.youtube.com/channel/UCylC06rhz-lE3jPmOqmTnag" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
-            </div>
-        <div class="col-lg-4 col-sm-12 ifr" style="text-align: center;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d8597.359048151518!2d72.78725578473826!3d21.165749109477762!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI(REVOLUTIONARY%20CONCEPT)%2C%20SVNIT%20Campus%2C%20Athwa%2C%20Surat%2C%20Gujarat%20395007!3m2!1d21.1670072!2d72.7858545!5e0!3m2!1sen!2sin!4v1577283642286!5m2!1sen!2sin" width="280" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-        </div>
-        <div class="row justify-content-center" style="text-align: center; padding-top:30px;color: white ;">
-            <h5 class="col-md-12 col-sm-12" style="text-align: center; padding-bottom: 20px;">
-            © Drishti-SVNIT. All Rights Reserved
-            </h5>
-        </div>
-</div> -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-    </body>
+                <a class="social-button " href="mailto:drishti.nitsurat@gmail.com" ><i style="font-size:170%;" class="fas fa-envelope"></i></a>
+                <a class="social-button youtube" href="https://www.youtube.com/channel/UCylC06rhz-lE3jPmOqmTnag" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 ifr" style="text-align: center;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d8597.359048151518!2d72.78725578473826!3d21.165749109477762!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI(REVOLUTIONARY%20CONCEPT)%2C%20SVNIT%20Campus%2C%20Athwa%2C%20Surat%2C%20Gujarat%20395007!3m2!1d21.1670072!2d72.7858545!5e0!3m2!1sen!2sin!4v1577283642286!5m2!1sen!2sin" width="280" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    </div>
+    <div class="row justify-content-center" style="text-align: center; padding-top:30px;color: white ;">
+        <h5 class="col-md-12 col-sm-12" style="text-align: center; padding-bottom: 20px;">
+        © Drishti-SVNIT. All Rights Reserved
+        </h5>
+    </div>
+               <!-- <a class="gotopbtn" href="#" style="color: white;"><i class="fas fa-arrow-up"></i></a>  ->
+</div>
+-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
