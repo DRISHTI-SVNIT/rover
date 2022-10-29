@@ -55,6 +55,8 @@
 
 
 
+
+
 html
 {
     overflow-x: hidden;
@@ -64,7 +66,11 @@ html
     font-size: 20px;
 }
 
-.nav-link{
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
     color: white;
 }
 
@@ -113,7 +119,16 @@ body
 
 
 
-
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/irc2020_1.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
+}
+/* 
 .main-div{
     width: 100%;
     height: 100vh;
@@ -123,7 +138,7 @@ body
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0px -160px 500px 120px rgba(0, 0, 0, 1) inset, 0px 70px 90px 20px rgba(0, 0, 0, 1) inset;
-}
+} */
 
 .rover-image{
     display: flex;
@@ -140,16 +155,16 @@ body
 
 .rover-image .rover-title h3{
     font-weight: bold;
-    letter-spacing: 8px;
-    font-size: 40px;
+    letter-spacing: 0.7vw;
+    font-size: 4vw;
     padding-bottom: 0;
 }
 
 .rover-image .rover-title h1{
     font-weight: bolder;
-    letter-spacing: 10px;
-    font-size: 140px;
-    padding-bottom: 50px;
+    letter-spacing: 0.5vw;
+    font-size: 8vw;
+    padding-bottom: 3vw;
 }
 
 .about-section{
@@ -313,13 +328,14 @@ body
     }
 
     .main-div{
-        width: 100%;
+        /* width: 100%;
         height: 95vh;
         background-image: none;
         background-color: transparent;
-        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset; */
+        background-image: url(images/irc2020_2.jpg);
     }
-
+/* 
     .rover-image{
         position: relative;
         display: flex;
@@ -333,28 +349,25 @@ body
             bottom 0px left 0px,
             bottom 90px left 0px;
         background-repeat: no-repeat;
-    }
+    } */
 
     .rover-image .rover-title{
-        top: 20px;
+        /* top: 20px;
         position: absolute;
         text-align: center;
         color: #fefefe;
-        text-shadow: 0 0 15px rgba(0,0,0,0.5);
+        text-shadow: 0 0 15px rgba(0,0,0,0.5); */
+        padding-bottom: 3vw;
     }
 
     .rover-image .rover-title h3{
-        font-weight: bold;
-        letter-spacing: 6px;
-        font-size: 40px;
-        padding-top: 20px;
+        font-size: 7vw;
+        padding-bottom: 0;
     }
 
     .rover-image .rover-title h1{
-        font-weight: bolder;
-        letter-spacing: 6px;
-        font-size: 75px;
-        padding-bottom: 0px;
+        font-size: 12vw;
+        padding-top: 0;
     }
 
     .about-section{
