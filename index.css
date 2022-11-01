@@ -334,6 +334,7 @@ body
         background-color: transparent;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset; */
         background-image: url(images/irc2020_2.jpg);
+        height: 130vw;
     }
 /* 
     .rover-image{
@@ -601,6 +602,9 @@ body
     {
         padding-right: 0px;
         padding-left:0px;
+    }
+    .rover-image .rover-title{
+        padding-bottom: 43vw;
     }
 }
 @media(max-width:978px)
