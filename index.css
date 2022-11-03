@@ -352,14 +352,6 @@ body
         background-repeat: no-repeat;
     } */
 
-    .rover-image .rover-title{
-        /* top: 20px;
-        position: absolute;
-        text-align: center;
-        color: #fefefe;
-        text-shadow: 0 0 15px rgba(0,0,0,0.5); */
-        padding-bottom: 3vw;
-    }
 
     .rover-image .rover-title h3{
         font-size: 7vw;
@@ -603,8 +595,13 @@ body
         padding-right: 0px;
         padding-left:0px;
     }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset;
+    }
     .rover-image .rover-title{
-        padding-bottom: 43vw;
+        position: relative;
+        top: 10px;
     }
 }
 @media(max-width:978px)

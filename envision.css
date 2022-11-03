@@ -379,7 +379,12 @@ a.sub-link-button:hover{
         margin-top: 0px;
         margin-bottom: 0px;
     }
-
+    .main-div{
+        height: 130vw;
+    }
+    .envision-image .envision-title{
+        padding-bottom: 17vw;
+    }
     /* .main-div{
         width: 100%;
         height: auto;
@@ -712,13 +717,21 @@ a.sub-link-button:hover{
      padding-top: 50px;
     padding-right: 50px;
 }
-@media(max-width:450px)
+@media(max-width:460px)
 {
     .dob
     {
         padding-right: 0px;
         padding-left:0px;
     }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset;
+    }
+    .envision-image .envision-title{
+        position: relative;
+        top: 10px;
+    }  
 }
 @media(max-width:978px)
 {
