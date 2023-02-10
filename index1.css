@@ -1,0 +1,560 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
+
+
+html
+{
+    overflow-x: hidden;
+}
+.navbar-nav{
+    /* font-family: Arial; */
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.svnit_photo{
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/vihan/team-rover-20-24.avif);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
+}
+/* 
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/irc2020_1.jpg);
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -160px 500px 120px rgba(0, 0, 0, 1) inset, 0px 70px 90px 20px rgba(0, 0, 0, 1) inset;
+} */
+
+.rover-image{
+    display: flex;
+    justify-content: center;
+}
+
+.rover-image .rover-title{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.rover-image .rover-title h3{
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    font-size: 4vw;
+    padding-bottom: 0;
+}
+
+.rover-image .rover-title h1{
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    font-size: 8vw;
+    padding-bottom: 3vw;
+}
+
+.about-section{
+    display: flex;
+}
+
+.write-up-about{
+    width: 65%;
+    padding: 20px 30px 30px 70px;
+}
+
+ .about-us
+ {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+ }
+
+ .about-us-content
+ {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+.about-drishti-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rover-section{
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    background-color: #202328;
+    color: #f8fafd;
+    background-image: url(images/vihan/vihan3.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+}
+
+.rover-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.rover-section p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.projects{
+    width: 90%;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-box{
+    width: 80%;
+    height: 230px;
+    margin: 10%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.project-box img{
+    /* width: 100%; */
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.project-box h2{
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    color: white;
+    font-size: 2em;
+    text-shadow: 0 0 25px black;
+}
+
+.project-box a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0;
+    border-radius: 20px;
+    transition: 0.1s;
+}
+
+.project-box a span:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-div{
+        /* width: 100%;
+        height: 95vh;
+        background-image: none;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset; */
+        background-image: url(images/vihan/team-rover-20-24.avif);
+        height: 130vw;
+    }
+/* 
+    .rover-image{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/irc2020_1.jpg),url(images/irc2019final_3.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position:
+            bottom 0px left 0px,
+            bottom 90px left 0px;
+        background-repeat: no-repeat;
+    } */
+
+
+    .rover-image .rover-title h3{
+        font-size: 7vw;
+        padding-bottom: 0;
+    }
+
+    .rover-image .rover-title h1{
+        font-size: 12vw;
+        padding-top: 0;
+    }
+
+    .about-section{
+        display: grid;
+    }
+
+    .write-up-about{
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+     .about-us
+     {
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 10px;
+     }
+
+     .about-us-content
+     {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+     }
+
+    .about-drishti-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-drishti-image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .rover-section{
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        background-color: #202328;
+        color: #f8fafd;
+        background-image: url(images/vihan/vihan3.jpg);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+    }
+
+    .rover-section h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    }
+
+    .rover-section p{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .projects{
+        width: 96%;
+        margin: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .project-box{
+        width: 90%;
+        margin: 5%;
+        position: relative;
+    }
+    
+    .project-box img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .project-box h2{
+        position: absolute;
+        bottom: 2px;
+        left: 8px;
+        color: white;
+        font-size: 1em;
+        text-shadow: 0 0 15px black;
+    }
+    
+    .project-box a span{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        z-index: 1;
+        background-color: black;
+        opacity: 0;
+        border-radius: 10px;
+        transition: 0.1s;
+    }
+    
+    .project-box a span:hover{
+        opacity: 0.5;
+        transition: 0.2s;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+ @media (max-width: 600.98px) {
+    .con{
+    border:2px solid transparent;
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
+    }
+    .hello1{
+    height: 250px;
+    }
+
+    .hello2{
+    height: 250px;
+    }
+
+    .hello3{
+    height: 250px;
+    }
+    .about_us_content
+    {
+        font-weight: 400;
+    }
+    .pad_data
+    {
+        font-weight: 400;
+    }
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
+    }
+}
+.dob
+{
+    padding-left: 50px;
+     padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset;
+    }
+    .rover-image .rover-title{
+        position: relative;
+        top: 10px;
+    }
+}
+@media(max-width:978px)
+{
+    .ifr
+    {
+        padding-top: 80px;
+    }
+}
