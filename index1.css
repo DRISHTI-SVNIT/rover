@@ -224,57 +224,80 @@ body
     text-align: justify;
 }
 
-.projects{
-    width: 90%;
-    margin: 5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.project-box{
-    width: 65%;
-    height: 230px;
-    margin: 10%;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    background-color: black;
-}
-
-.project-box img{
-    /* width: 100%; */
-    height: 230px;
-    border-radius: 20px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-}
-
-.project-box h2{
-    position: absolute;
-    bottom: 4px;
-    left: 20px;
-    color: white;
-    font-size: 2em;
-    text-shadow: 0 0 25px black;
-}
-
-.project-box a span{
-    position: absolute;
+.rover-status{
+    display: flex;
     width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    z-index: 1;
-    background-color: black;
-    opacity: 0;
-    border-radius: 20px;
-    transition: 0.1s;
+    margin-top: 25px;
 }
 
-.project-box a span:hover{
-    opacity: 0.5;
-    transition: 0.2s;
+.rover-year-space{
+    width: 5%;
 }
 
+.rover-year-image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rover-year-image-box{
+    width: 84%;
+    margin: 6% 6% 6% 6%;
+}
+
+.rover-year-image-box img{
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);
+}
+
+.rover-year-link{
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rover-year-text{
+    padding: 6% 10% 6% 10%;
+    text-align: left;
+}
+
+.rover-year-text h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(20, 34, 41);
+    letter-spacing: 1px;
+}
+
+.rover-year-text h4{
+    font-size: 20px;
+    color: rgba(20, 34, 41, 0.6);
+}
+
+.rover-year-text h2{
+    font-size: 20px;
+    color: rgb(20, 34, 41);
+    letter-spacing: 1px;
+}
+
+.rover-year-text a.envision-button{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 30px 8px 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 30, 45);
+    border: 2px solid rgb(240, 30, 45);
+    border-radius: 10px;
+}
+
+.rover-year-text a.envision-button:hover{
+    color: rgb(240, 30, 45);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(240, 30, 45);
+}
 
 
 
@@ -402,50 +425,80 @@ body
         text-align: justify;
     }
 
-    .projects{
-        width: 96%;
-        margin: 2%;
+    .rover-status{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .project-box{
-        width: 90%;
-        margin: 5%;
-        position: relative;
-    }
-    
-    .project-box img{
         width: 100%;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin-top: 25px;
     }
-    
-    .project-box h2{
-        position: absolute;
-        bottom: 2px;
-        left: 8px;
-        color: white;
-        font-size: 1em;
-        text-shadow: 0 0 15px black;
-    }
-    
-    .project-box a span{
-        position: absolute;
+
+    .rover-year-space{
         width: 100%;
-        height: 100%;
-        top:0;
-        left:0;
-        z-index: 1;
-        background-color: black;
-        opacity: 0;
-        border-radius: 10px;
-        transition: 0.1s;
+        height: 0;
     }
-    
-    .project-box a span:hover{
-        opacity: 0.5;
-        transition: 0.2s;
+
+    .rover-year-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rover-year-image-box{
+        width: 84%;
+        margin: 6% 6% 6% 6%;
+    }
+
+    .rover-year-image-box img{
+        width: 100%;
+        border: 0px solid transparent;
+        border-radius: 15px;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .rover-year-link{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .rover-year-text{
+        padding: 6% 10% 6% 10%;
+        text-align: left;
+    }
+
+    .rover-year-text h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .rover-year-text h4{
+        font-size: 16px;
+        color: rgba(20, 34, 41, 0.6);
+    }
+
+    .rover-year-text h2{
+        font-size: 18px;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .rover-year-text a.envision-button{
+        text-decoration: none;
+        font-size: 16px;
+        padding: 6px 30px 6px 30px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 30, 45);
+        border: 2px solid rgb(240, 30, 45);
+        border-radius: 10px;
+    }
+
+    .rover-year-text a.envision-button:hover{
+        color: rgb(240, 30, 45);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(240, 30, 45);
     }
 }
 

@@ -1,3 +1,5 @@
+
+
 /* custom fonts */
 
 @font-face {
@@ -224,80 +226,92 @@ body
     text-align: justify;
 }
 
-.rover-status{
-    display: flex;
+.teams-head{
     width: 100%;
-    margin-top: 25px;
-}
-
-.rover-year-space{
-    width: 5%;
-}
-
-.rover-year-image{
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
-.rover-year-image-box{
-    width: 84%;
-    margin: 6% 6% 6% 6%;
+.teams-title{
+    text-align: center;
+    padding: 20px 0 0 0;
 }
 
-.rover-year-image-box img{
-    width: 100%;
-    border: 0px solid transparent;
-    border-radius: 15px;
-    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);
-}
-
-.rover-year-link{
-    width: 55%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.rover-year-text{
-    padding: 6% 10% 6% 10%;
-    text-align: left;
-}
-
-.rover-year-text h1{
-    font-size: 40px;
-    font-weight: bolder;
-    color: rgb(20, 34, 41);
-    letter-spacing: 1px;
-}
-
-.rover-year-text h4{
-    font-size: 20px;
-    color: rgba(20, 34, 41, 0.6);
-}
-
-.rover-year-text h2{
-    font-size: 20px;
-    color: rgb(20, 34, 41);
-    letter-spacing: 1px;
-}
-
-.rover-year-text a.envision-button{
-    text-decoration: none;
-    font-size: 18px;
-    padding: 8px 30px 8px 30px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(240, 30, 45);
-    border: 2px solid rgb(240, 30, 45);
+.teams-title h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 4vw;
+    /* color: rgb(20,34,41); */
+    /* color: white; */
+    /* border: 2px solid rgb(20,34,41); */
+    border: 2px solid black;
     border-radius: 10px;
+    padding: 14px 50px 14px 50px;
+    transition: 0.1s ease;
 }
 
-.rover-year-text a.envision-button:hover{
-    color: rgb(240, 30, 45);
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(240, 30, 45);
+.teams-title h2:hover{
+    /* background-color: rgb(20,34,41);
+    color: rgb(245, 251, 253); */
+    background-color: white;
+    color: black;
+    transition: 0.2s ease;
 }
+
+.projects{
+    width: 90%;
+    margin: 5%;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-box{
+    width: 80%;
+    height: 17.9vw;
+    margin: 10%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.project-box img{
+    /* width: 100%; */
+    height: 17.9vw;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.project-box h2{
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    color: white;
+    font-size: 1.7em;
+    text-shadow: 0 0 25px black;
+}
+
+.project-box a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0;
+    border-radius: 20px;
+    transition: 0.1s;
+}
+
+.project-box a span:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
 
 
 
@@ -424,81 +438,73 @@ body
         font-size: 17px;
         text-align: justify;
     }
-
-    .rover-status{
-        display: grid;
-        width: 100%;
-        margin-top: 25px;
-    }
-
-    .rover-year-space{
-        width: 100%;
-        height: 0;
-    }
-
-    .rover-year-image{
+    .teams-head{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
+    }
+    .teams-title{
+        text-align: center;
+        padding: 0px 0 0px 0;
     }
 
-    .rover-year-image-box{
-        width: 84%;
-        margin: 6% 6% 6% 6%;
-    }
-
-    .rover-year-image-box img{
-        width: 100%;
-        border: 0px solid transparent;
-        border-radius: 15px;
-        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
-    }
-
-    .rover-year-link{
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .rover-year-text{
-        padding: 6% 10% 6% 10%;
-        text-align: left;
-    }
-
-    .rover-year-text h1{
-        font-size: 30px;
-        font-weight: bolder;
-        color: rgb(20, 34, 41);
+    .teams-title h2{
+        font-weight: bold;
         letter-spacing: 1px;
-    }
-
-    .rover-year-text h4{
-        font-size: 16px;
-        color: rgba(20, 34, 41, 0.6);
-    }
-
-    .rover-year-text h2{
-        font-size: 18px;
-        color: rgb(20, 34, 41);
-        letter-spacing: 1px;
-    }
-
-    .rover-year-text a.envision-button{
-        text-decoration: none;
-        font-size: 16px;
-        padding: 6px 30px 6px 30px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(240, 30, 45);
-        border: 2px solid rgb(240, 30, 45);
+        font-size: 20px;
+        /* color: white; */
+        /* border: 2px solid white; */
         border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        transition: 0.1s ease;
     }
 
-    .rover-year-text a.envision-button:hover{
-        color: rgb(240, 30, 45);
-        background-color: rgb(255, 255, 255);
-        border: 2px solid rgb(240, 30, 45);
+    .teams-title h2:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s ease;
+    }
+    .projects{
+        width: 96%;
+        margin: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .project-box{
+        height: 28.8vw;
+        position: relative;
+    }
+    
+    .project-box img{
+        height: 28.8vw;
+    }
+    
+    .project-box h2{
+        position: absolute;
+        bottom: 2px;
+        left: 8px;
+        font-size: 1em;
+    }
+    
+    .project-box a span{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        z-index: 1;
+        background-color: black;
+        opacity: 0;
+        border-radius: 10px;
+        transition: 0.1s;
+    }
+    
+    .project-box a span:hover{
+        opacity: 0.5;
+        transition: 0.2s;
     }
 }
 
@@ -611,3 +617,4 @@ body
         padding-top: 80px;
     }
 }
+

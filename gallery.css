@@ -106,16 +106,51 @@ body
     background-image: url(images/s.jpg);
 }
 
+.teams-head1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20PX;
+}
 
+.teams-title1{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.teams-title1 h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 3vw;
+    /* color: rgb(20,34,41); */
+    /* color: white; */
+    /* border: 2px solid rgb(20,34,41); */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 14px 50px 14px 50px;
+    transition: 0.1s ease;
+}
+
+.teams-title1 h2:hover{
+    /* background-color: rgb(20,34,41);
+    color: rgb(245, 251, 253); */
+    background-color: white;
+    color: black;
+    transition: 0.2s ease;
+}
 .carousel-inner{
-    height: fit-content;
+    height: 500px;
     width:auto;
     align-content: center;   
 }
+.carousel-item{
+
+}
 .img-fluid{
     align-self: auto;
-    width: 55vw;
-    height: auto;
+    /* width: 55vw; */
+    height: 500px;
     border: 1px solid black;
 }
 
@@ -149,5 +184,32 @@ body
         align-self: auto;
         width: 90vw;
         height: auto;
+    }
+    .teams-head1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .teams-title1{
+        text-align: center;
+        padding: 0px 0 0px 0;
+    }
+
+    .teams-title1 h2{
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 20px;
+        /* color: white; */
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        transition: 0.1s ease;
+    }
+
+    .teams-title1 h2:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s ease;
     }
 }
