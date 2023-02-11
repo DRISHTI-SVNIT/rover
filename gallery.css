@@ -140,7 +140,7 @@ body
     transition: 0.2s ease;
 }
 .carousel-inner{
-    height: 500px;
+    height: 35vw;
     width:auto;
     align-content: center;   
 }
@@ -150,7 +150,7 @@ body
 .img-fluid{
     align-self: auto;
     /* width: 55vw; */
-    height: 500px;
+    height: 35vw;
     border: 1px solid black;
 }
 
@@ -180,6 +180,11 @@ body
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .carousel-inner{
+        height: 65vw;
+        width:auto;
+        align-content: center;   
+    }
     .img-fluid{
         align-self: auto;
         width: 90vw;
@@ -190,6 +195,7 @@ body
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 20px;
     }
     .teams-title1{
         text-align: center;
