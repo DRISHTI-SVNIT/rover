@@ -1,0 +1,742 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+
+html
+{
+    overflow-x: hidden;
+}
+.navbar-nav{
+    /* font-family: Arial; */
+    font-size: 20px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.svnit_photo {
+   /* height:100px; */
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Agastya/Agastya.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
+}
+
+.agastya-image{
+    display: flex;
+    justify-content: center;
+}
+
+.agastya-image .agastya-title{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.agastya-image .agastya-title h3{
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    font-size: 3vw;
+    padding-bottom: 4vw;
+}
+
+.agastya-image .agastya-title h1{
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    font-size: 5vw;
+    padding-bottom: 0;
+}
+
+.agastya-intro{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.agastya-irdc{
+    width: 100%;
+    display: flex;
+}
+
+.agastya-imh{
+    width: 100%;
+    display: flex;
+}
+
+.agastya-gujcost{
+    width: 100%;
+    display: flex;
+}
+
+.right-text{
+    width: 70%;
+    padding: 4% 6% 4% 10%;
+}
+
+.right-text p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.right-image{
+    width: 30%;
+    padding: 3% 6% 3% 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-image img{
+    width: 100%;
+}
+
+.left-text{
+    width: 70%;
+    padding: 4% 6% 4% 10%;
+}
+
+.left-text p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.left-image{
+    width: 30%;
+    padding: 3% 0 3% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-image img{
+    width: 100%;
+}
+
+.agastya-intro-last p{
+    font-size: 20px;
+    padding: 5% 10% 5% 10%;
+    text-align: justify;
+}
+
+.competition-buttons{
+    display: flex;
+    margin-top: 40px;
+}
+
+a.competition-site{
+    text-align: center;
+    text-decoration: none;
+    width: 48%;
+    margin-right: 2%;
+    background-color: transparent;
+    padding: 7px 0 9px 0;
+    color: black;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+a.competition-site:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.1s ease;
+    font-weight: bold;
+}
+
+a.competition-design{
+    text-align: center;
+    text-decoration: none;
+    width: 48%;
+    margin-left: 2%;
+    background-color: transparent;
+    padding: 7px 0 9px 0;
+    color: black;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+a.competition-design:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.1s ease;
+    font-weight: bold;
+}
+
+a.agastya-comp-redirect{
+    text-decoration: none;
+    font-style: italic;
+    color: dodgerblue;
+}
+
+a.agastya-comp-redirect:hover{
+    color: indianred;
+}
+
+
+
+
+
+.subsystems-link{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.sub-head{
+    background-color: rgb(24, 30, 40);
+    text-align: left;
+    padding: 40px 10% 40px 10%;
+}
+
+.sub-head h1{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.sub-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-sub{
+    width: 22%;
+    margin: 3%;
+    height: 55vh;
+    text-align: center;
+    display: grid;
+    align-content: space-between;
+}
+
+.image-sub{
+    margin-bottom: 15px;
+}
+
+.image-sub img{
+    width: 100%;
+}
+
+.div-sub h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+a.sub-link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(24, 30, 40);
+    border: 2px solid rgb(24, 30, 40);
+    padding: 9px 30px 9px 30px;
+    border-radius: 10px;
+    transition: 0.1s ease;
+}
+
+a.sub-link-button:hover{
+    color: rgb(20,34,41);
+    background-color: white;
+    border: 2px solid rgb(24, 30, 40);
+    transition: 0.1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .main-div{
+        height: 130vw;
+    }
+    .agastya-image .agastya-title{
+        padding-bottom: 17vw;
+    }
+    /* .main-div{
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: darkgray;
+    }
+
+    .agastya-image{
+        height: 45vh;
+        background-image: url(images/agastya/roverlink.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        box-shadow: 0px -50px 100px 20px rgba(0, 0, 0, 0.9) inset, 0px 10px 50px 10px rgba(0, 0, 0, 0.4) inset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .agastya-image .agastya-title{
+        top: 25vh;
+        position: relative;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 0 30px black;
+    }
+
+    .agastya-image .agastya-title h3{
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    .agastya-image .agastya-title h1{
+        font-weight: bolder;
+        letter-spacing: 7px;
+        font-size: 50px;
+    } */
+    
+    .agastya-intro{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .agastya-irdc{
+        display: grid;
+    }
+
+    .agastya-imh{
+        display: grid;
+    }
+
+    .agastya-gujcost{
+        display: grid;
+    }
+
+    .right-text{
+        width: 100%;
+        padding: 25px 25px;
+    }
+
+    .right-text p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .right-image{
+        width: 100%;
+        padding: 10px 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-image img{
+        width: 100%;
+    }
+
+    .left-text{
+        grid-row: 1;
+        width: 100%;
+        padding: 25px 25px;
+    }
+
+    .left-text p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .left-image{
+        grid-row: 2;
+        width: 100%;
+        padding: 10px 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-image img{
+        width: 100%;
+    }
+
+    .agastya-intro-last p{
+        font-size: 15px;
+        padding: 18px 25px;
+        text-align: justify;
+    }
+
+    .competition-buttons{
+        display: flex;
+        margin-top: 40px;
+    }
+
+    a.competition-site{
+        text-align: center;
+        text-decoration: none;
+        width: 48%;
+        margin-right: 2%;
+        background-color: transparent;
+        padding: 7px 0 9px 0;
+        color: black;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: all 0.1s ease;
+    }
+
+    a.competition-site:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        transition: all 0.1s ease;
+        font-weight: bold;
+    }
+
+    a.competition-design{
+        text-align: center;
+        text-decoration: none;
+        width: 48%;
+        margin-left: 2%;
+        background-color: transparent;
+        padding: 7px 0 9px 0;
+        color: black;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: all 0.1s ease;
+    }
+
+    a.competition-design:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        transition: all 0.1s ease;
+        font-weight: bold;
+    }
+
+    a.agastya-comp-redirect{
+        text-decoration: none;
+        font-style: italic;
+        color: dodgerblue;
+    }
+
+    a.agastya-comp-redirect:hover{
+        color: indianred;
+    }
+
+
+
+
+
+    .subsystems-link{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+
+    .sub-head{
+        background-color: rgb(24, 30, 40);
+        text-align: left;
+        padding: 30px;
+    }
+
+    .sub-head h1{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+
+    .sub-cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-sub{
+        width: 22%;
+        height: 30vh;
+        margin: 3%;
+        text-align: center;
+        display: grid;
+        align-content: space-between;
+    }
+
+    .image-sub{
+        margin-bottom: 10px;
+    }
+
+    .image-sub img{
+        width: 100%;
+    }
+
+    .div-sub h2{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    a.sub-link-button{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        background-color: rgb(24,30,40);
+        border: 2px solid rgb(24, 30, 40);
+        padding: 6px 15px 6px 15px;
+        border-radius: 8px;
+        transition: 0.1s ease;
+    }
+
+    a.sub-link-button:hover{
+        color: rgb(20,34,41);
+        background-color: white;
+        border: 2px solid rgb(24, 30, 40);
+        transition: 0.1s ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600.98px) {
+    .con{
+    border:2px solid transparent;
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
+    }
+    .hello1{
+    height: 250px;
+    }
+
+    .hello2{
+    height: 250px;
+    }
+
+    .hello3{
+    height: 250px;
+    }
+    .about_us_content
+    {
+        font-weight: 400;
+    }
+    .pad_data
+    {
+        font-weight: 400;
+    }
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
+    }
+}
+.dob
+{
+    padding-left: 50px;
+     padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:460px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset;
+    }
+    .agastya-image .agastya-title{
+        position: relative;
+        top: 10px;
+    }  
+}
+@media(max-width:978px)
+{
+    .ifr
+    {
+        padding-top: 80px;
+    }
+}

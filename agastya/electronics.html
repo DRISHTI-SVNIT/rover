@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="G4gClB66Jr2h0XiecdD1OyTE0HCHwwS707_GIuEMCfU" />
+    <meta name="description" content="The DRISHTI-Rover is a student initiative at SVNIT to build a prototype of Mars rover capable of extra-terrestrial robotics.">
+    <meta name="keywords" content="Drishti, Rover,WE,ME,technical, DRISHTI, ROVER">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        DRISHTI-Rover
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+    <link href="../css/all.min.css" rel="stylesheet">
+    <link href="../css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../footer.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="electronics.css">
+</head>
+<body>
+
+<!--------------------------------------------------------------------------->
+
+<div class="main-nav">
+<nav class="navbar navbar-expand-md navbar-light"style="background-color: rgb(255,255,255);">
+    <a href ="http://svnit.ac.in/" class="navbar-brand">
+        <img class="nit_photo"src="../images/svnit.png">
+    </a>
+    <div class="navbar-brand v2"></div>
+    <a href ="https://drishti-svnit.github.io/drishti/" class="navbar-brand">
+        <img src="../images/drishti_3.png" class="svnit_photo" >
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"style="font-weight: bold; margin-right: 20px;"><a href="../index.html" class="nav-link">Home</a></li>
+            <!-- <li class="nav-item"style="font-weight: bold; margin-right: 20px;"><a href="../gallery.html" class="nav-link">Gallery</a></li>
+             -->
+            <li class="nav-item dropdown" style="font-weight: bold; margin-right: 20px;">
+                <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Subsystems</a>
+                <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
+                    <a href="mechanical.html" class="dropdown-item">
+                        MECHANICAL SUBSYSTEM
+                    </a>
+                    <a href="bioscience.html" class="dropdown-item">
+                        BIOSCIENCE
+                    </a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown "style="font-weight: bold;  margin-right: 40px;">
+                <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Rovers</a>
+                <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
+                    <a href="../envision.html" class="dropdown-item">
+                        ENVISION | 2021
+                    </a>
+                    <a href="../argus.html" class="dropdown-item">
+                        ARGUS | 2020
+                    </a>
+                    <a href="https://drishti-svnit/rover/#solar" class="dropdown-item">
+                        SOLAR-64 | 2019
+                    </a>
+                    <a href="https://drishti-svnit/rover/#anv" class="dropdown-item">
+                        ANVESHAK | 2018
+                    </a>
+                </div>
+            </li> -->
+            <li class="nav-item"style="font-weight: bold; margin-right: 40px;"><a href="#down" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+</div>
+
+<!--------------------------------------------------------------------------->
+
+
+<div class="title">
+    <h1>
+        ELECTRONICS
+    </h1>
+    <h3>
+        and
+    </h3>
+    <h1>
+        SOFTWARE
+    </h1>
+</div>
+
+
+<div class="topics">
+    <div class="cards">
+        <div class="images">
+            <img src="../images/envision/actuationlogo2.png" alt="Actuation">
+        </div>
+        <a href="#actuation">
+            Actuation
+        </a>
+    </div>
+    <div class="cards">
+        <div class="images">
+            <img src="../images/envision/autonomouslogoedit.jpg" alt="Autonomous">
+        </div>
+        <a href="#autonomous">
+            Autonomous
+        </a>
+    </div>
+    <div class="cards">
+        <div class="images">
+            <img src="../images/envision/imageprologo.png" alt="Image Processing">
+        </div>
+        <a href="#imagepro">
+            Image Processing
+        </a>
+    </div>
+    <div class="cards">
+        <div class="images">
+            <img src="../images/envision/manipulatorlogo.jpg" alt="Manipulator">
+        </div>
+        <a href="#manipulator">
+            Manipulator
+        </a>
+    </div>
+    <div class="cards">
+        <div class="images">
+            <img src="../images/envision/videostrlogo2.jpg" alt="Video Streaming">
+        </div>
+        <a href="#videostr">
+            Video Streaming and GUI
+        </a>
+    </div>
+    <div class="cards">
+        <div class="images">
+            <img src="../images/envision/circuitlogo.png" alt="Power Distribution and Circuits">
+        </div>
+        <a href="#circuit">
+            Power Distribution and Circuits
+        </a>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="actuation">
+    <div class="sub-img-box">
+        <img src="../images/Agastya/Agastya1.png.jpg" alt="Actuation">
+    </div>
+    <div class="sub-text">
+        <h1>
+            ACTUATION
+        </h1>
+        <p>
+            All of the manipulator and driving motors are operated by Cytron and Hercules motor drivers, which receive commands from the Arduino-Mega Controller, which in turn receives commands serially from the Raspberry-pi.
+            <br><br>
+            Low RPM and High Torque DC Planetary Gear Motors are used to propel the rover.
+            <br><br>
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="autonomous">
+    <div class="sub-img-box">
+        <img src="../images\Agastya\algo.jpg" alt="Autonomous">
+    </div>
+    <div class="sub-text">
+        <h1>
+            AUTONOMOUS
+        </h1>
+        <p>
+            Our autonomous rover navigation system integrates 2D LiDAR for enhanced spatial mapping, transitioning from initial ultrasonic sensors for improved real-time obstacle detection.
+            <br><br>
+            Path planning evolved from traditional bug algorithms to an adaptive vector-based approach, implemented on the TurtleBot3 platform, ensuring effective navigation in diverse scenarios.
+            <br><br>
+            Utilizing Neo M8N GPS, HMC 5883 magnetometer, and IMU, the rover applies the Haversine formula for precise waypoint navigation.
+            <br><br>
+        </p>
+    </div>
+</div>
+
+<hr>
+
+<div class="subs" id="imagepro">
+    <div class="sub-img-box">
+        <img src="../images/envision/Image processing.jpg" alt="Image Processing">
+    </div>
+    <div class="sub-text">
+        <h1>
+            IMAGE PROCESSING
+        </h1>
+        <p>
+            For object detection and image processing OpenCV and TensorFlow library integrated on Python script is used.
+            <br><br>
+            Arrow and ball detection are achieved by training a model using Keras as the main program interface.
+            <br><br>
+            The Rover aligns itself according to the arrow orientation in order to keep the detected class at the centre of the frame and moves till a distance of less than 2 meters from that object is reached which is calculated by the increasing pixel size of the bounding box.
+            <br><br>
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="manipulator">
+    <div class="sub-img-box">
+        <img src="../images/Agastya/manipulator.png" alt="Manipulator">
+    </div>
+    <div class="sub-text">
+        <h1>
+            MANIPULATOR
+        </h1>
+        <p>
+            We tried to automate our arm this time and for that we took the help of ROS Rviz simulations.
+            <br><br>
+            This was achieved by applying forward and inverse kinematics on the manipulator.
+            <br><br>
+            With the help of inverse kinematics the rover calculates the joint angles of the arm joints based on the final coordinates and then we just publish those values to the joint state publisher which then moves the arm in Rviz.
+            <br><br>
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="videostr">
+    <div class="sub-img-box">
+        <img src="../images\Agastya\Webgui.jpg" alt="Video Streaming and GUI">
+    </div>
+    <div class="sub-text">
+        <h1>
+            VIDEO STREAMING AND GUI
+        </h1>
+        <p>
+            Video streaming is achieved using three Web cameras that are mounted on the Rover. These cam collectively provide a 360° view of the field for effective navigation purpose.
+            <br><br>
+            Video streaming is done over 5Ghz band.
+            <br><br>
+            A Web server is created using the MJPG-4 streamer of Raspberry-Pi for video transmission at base station.
+            <br><br>
+            These feed is visualised at base station by Web GUI.
+            <br><br>
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="circuit">
+    <div class="sub-img-box">
+        <img src="../images\Agastya\circuit.png" alt="Power Distribution and Circuits">
+    </div>
+    <div class="sub-text">
+        <h1>
+            POWER DISTRIBUTION AND CIRCUITS
+        </h1>
+        <p>
+            The Rover is supplied with two - 12V and 16V Lipo battery.
+            <br><br>
+            For regulated DC supply, DC-DC buck convertor is used. Apart from that, supply to processor is given by 10,000 and 20,000 mAh power bank.
+            <br><br>
+            Protection of DC components is ensured from reverse polarity using PMOS and Diode.
+            <br><br>
+        </p>
+    </div>
+</div>
+
+
+
+
+
+<!--------------------------------------------------------------------------->
+
+
+    <!-- <div class="drishti-map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6327874201347!2d72.78366581502787!3d21.16700718592359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI%20-%20A%20REVOLUTIONARY%20CONCEPT!5e0!3m2!1sen!2sin!4v1618395974891!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+
+        </iframe>
+
+    </div>
+
+    <div class="new-footer">
+        <div class="drishti-copyright">
+            <span>
+                © Drishti-SVNIT. All Rights Reserved
+            </span>
+        </div>
+
+        <div class="drishti-home">
+            <a href = "https://drishti-svnit.github.io/drishti/" target="_blank">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+
+        <div class="drishti-social">
+            <div class = "contact-icons">
+                <a class="social-button facebook" href="https://www.facebook.com/drishti.nitsurat/" target="_blank">
+                    <i class="fab fa-facebook-square " style="vertical-align:0;"></i>
+                </a>
+                <a class="social-button insta" href="https://www.instagram.com/drishti.svnit/" target="_blank">
+                    <i class="fab fa-instagram " style="vertical-align:0;"></i>
+                </a>
+                <a class="social-button linkedin" href="https://www.linkedin.com/company/drishti-nitsurat/" target="_blank">
+                    <i class="fab fa-linkedin " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button github" href="https://www.github.com/DRISHTI-SVNIT" target="_blank">
+                    <i class="fab fa-github " style="vertical-align:0;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button mail" href="mailto:drishti.nitsurat@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-open " style="vertical-align:0;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button youtube" href="https://www.youtube.com/channel/UClAi8qJnq9VckAPOMzcPpLQ" target="_blank">
+                    <i class="fab fa-youtube " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
